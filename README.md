@@ -1,10 +1,8 @@
 # Heterogeneous-Parallezation-course
 Репозиторий с учебными работами по курсу Heterogeneous Parallelization.
 
-Содержание
+**Содержание**
+-
 
-lab1 - первая практическая работа
-assignment1 - assignment 1
-Студент
-
+**Студент**
 Аманбек Даурен, группа ADA-2402M
