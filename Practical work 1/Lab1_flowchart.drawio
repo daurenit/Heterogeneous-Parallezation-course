@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="lqgb8wazT1ef1VoJ2WsN">
+    <mxGraphModel dx="1174" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-3" target="W5ImGk3Uf5zis_4cvSh5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-4" target="W5ImGk3Uf5zis_4cvSh5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-4" value="Делаем&amp;nbsp;&lt;br&gt;&lt;i style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Input n (array size)&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-6" target="W5ImGk3Uf5zis_4cvSh5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-6" value="&lt;p class=&quot;p1&quot;&gt;Выделяем память для массива (new int[n])&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-8" target="W5ImGk3Uf5zis_4cvSh5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-8" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 15px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; color: rgb(14, 14, 14);&quot;&gt;&lt;font color=&quot;#0e0e0e&quot;&gt;Инициализировать генератор случайных чисел (srand(time))&lt;/font&gt;&lt;/blockquote&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-15" target="W5ImGk3Uf5zis_4cvSh5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-15" value="цикл заполнения массива" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-22" target="W5ImGk3Uf5zis_4cvSh5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-22" value="&lt;p class=&quot;p1&quot;&gt;Последовательное суммирование элементов&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-24" target="W5ImGk3Uf5zis_4cvSh5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-24" value="&lt;p class=&quot;p1&quot;&gt;Вычислить среднее (последовательно)&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-26" target="W5ImGk3Uf5zis_4cvSh5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-26" value="&lt;p class=&quot;p1&quot;&gt;Параллельное суммирование (OpenMP + reduction)&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-28" target="W5ImGk3Uf5zis_4cvSh5-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-28" value="&lt;p class=&quot;p1&quot;&gt;Вычислить среднее (параллельно)&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-30" target="W5ImGk3Uf5zis_4cvSh5-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-30" value="&lt;p class=&quot;p1&quot;&gt;Вывести результаты&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5ImGk3Uf5zis_4cvSh5-32" target="W5ImGk3Uf5zis_4cvSh5-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-32" value="&lt;p class=&quot;p1&quot;&gt;Освободить память (delete[] arr)&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W5ImGk3Uf5zis_4cvSh5-34" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1480" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
